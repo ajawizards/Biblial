@@ -1,0 +1,8 @@
+{ 
+    "database": {
+        "user": "alexbiblial",
+        "password": "projet2019aformac",
+        "dbName": "biblial",
+        "host" : "localhost"
+    }
+}

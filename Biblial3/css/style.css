@@ -1,0 +1,145 @@
+/*import de ma googlrfont*/
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+.textpolice {
+  font-family: "Nunito", sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  min-height: 600px;
+}
+
+a:hover {
+  color: #AF0808;
+  text-decoration: none;
+  /*  background-color:$menucolor; */
+}
+
+a:active {
+  color: #AF0808;
+}
+
+#background_opacity {
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.637);
+  /* L'opacite se regle ici */
+}
+
+label {
+  color: #AF0808;
+}
+
+.logac {
+  font-size: 1.75rem;
+}
+
+header a {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #f7db3f;
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
+}
+
+.navcol {
+  color: #AF0808;
+}
+
+.btn-outline-danger {
+  color: #AF0808;
+  border-color: #AF0808;
+}
+
+.btn-info {
+  background-color: #AF0808;
+  border-color: #AF0808;
+}
+
+.btn-outline-info {
+  background-color: #AF0808;
+  border-color: #AF0808;
+  color: white;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.img1 {
+  width: 600px;
+  height: auto;
+}
+
+.barre {
+  padding: 0px;
+}
+
+.barre1 {
+  padding: 0px;
+}
+
+.bt2 {
+  background-color: #AF0808;
+  color: #ffffff;
+}
+
+.bg-card {
+  background-color: black;
+  color: white;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #AF0808;
+  border-color: #f8f9fa;
+}
+
+.badge-danger {
+  color: #fff;
+  background-color: #AF0808;
+}
+
+@media screen and (min-width: 1257px) {
+  .cardCollection {
+    width: 30%;
+    position: absolute;
+    bottom: -11%;
+    right: 10%;
+    padding: 35px 35px 15px 35px;
+  }
+}
+@media screen and (min-width: 1258px) and (max-width: 1599px) {
+  .cardCollection {
+    width: 50%;
+    position: absolute;
+    bottom: -11%;
+    right: 3%;
+    padding: 35px 35px 15px 35px;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1848px) {
+  .cardCollection {
+    width: 35%;
+    position: absolute;
+    bottom: -11%;
+    right: 10%;
+    padding: 35px 35px 15px 35px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
